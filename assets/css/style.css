@@ -4,18 +4,6 @@
 
 /*------------------------------------------Colours */
 
-/*.bg-color-headtext-strapline {*/
-
-/*    background-color: #6CA8DD;*/
-
-/*}*/
-
-/*.bg-color-logos {*/
-
-/*    background-color: #245076;*/
-
-/*}*/
-
 .ui-menu-color-home {
     /*background-color: #CECFD4;*/
     background-color: #D6D4D4;
@@ -39,7 +27,7 @@
 
 .ui-menu-color-terms {
     background-color: #676767;
-    
+
 }
 
 .ui-menu-color-contact {
@@ -67,7 +55,6 @@ header {
 
 .heading {
     margin-left: 50px;
-
 }
 
 .logo {
@@ -76,9 +63,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 220px;
-    /*transition: all .5s ease-in-out;*/
-    /*-moz-transition: all .5s ease-in-out;*/
-    /*-webkit-transition: all .5s ease-in-out;*/
 }
 
 #head-part-2 {
