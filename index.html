@@ -16,18 +16,22 @@
 <body>
 
     <header>
+<!-- HEADER -->        
         <div class="row no-gutters">
             <a href="index.html" class="col-md-4 logo"></a>
-            <div id="head-part-2" class="col-md-8">
+            <div class="col-md-8 d-none d-sm-block">
                 <div class="row no-gutters">
                     <div class="col heading">
                         <p class="strapline">Family run since 2008</p>
                     </div>
                 </div>
                 <div id="logos" class="row">
-                    <div class="col logos-wide">
-                        <img src="assets/images/aqualisalogo.jpg" class="logos">
+                    <div class="col">
+                        <img src="assets/images/trustedTrader.jpg" class="logos">
                     </div>
+                    <!--<div class="col logos-wide">-->
+                    <!--    <img src="assets/images/aqualisalogo.jpg">-->
+                    <!--</div>-->
                     <div class="col logos-small">
                         <img src="assets/images/gasSafe.jpg" class="logos">
                     </div>
@@ -37,6 +41,9 @@
                 </div>
             </div>
         </div>
+<!-- /HEADER -->        
+        
+<!-- NAVIGATION -->
         <div class="row no-gutters">
             <div class="col">
                 <ul id="nav" class="list-inline menu-container">
@@ -58,21 +65,41 @@
                     <li class="col-6 col-sm-2 ui-menu-color-terms list-inline-item menu-item">
                         <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-file-alt" aria-hidden="true"></i><span>Terms</span></a>
                     </li>
-
+                    <li class="col-12 d-sm-none ui-menu-color-contact list-inline-item menu-item">
+                        <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-address-card" aria-hidden="true"></i><span>Contact Us</span></a>
+                    </li>
                 </ul>
             </div>
         </div>
+<!-- /NAVIGATION -->        
     </header>
 
     <section>
         <div class="row">
-            <div class="col-sm-4 contact-details">
-                <h1>Heading</h1>
-                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-                    electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release o</p>
+            
+<!-- MAIN CONTENT -->            
+            <div class="col-sm-4 d-none d-sm-block contact-details">
+                <h2>Contact Us</h2>
+                <div class="contact-details-info">
+                    <p><span class="bold">Mobile:</span> 07841 200 956</p>
+                    <p><span class="bold">Tel/Fax:</span> 01629 593 577</p>
+                    <p><span class="bold">Email:</span> office@adrplumbing.co.uk</p>
+                </div>
+                <div class="contact-details-info">
+                    <p>195 Chesterfield Road</p>
+                    <p>Matlock</p>
+                    <p>Derbyshire</p>
+                    <p>DE4 3GA</p>
+                </div>
+                <div class="contact-details-info">
+                    <h3>Hours of Business</h3>
+                    <p><span class="bold">Office hours:</span> Monday to Friday 9.00am to 5.00pm (after hours voicemail service monitored for emergencies)</p>
+                    <p><span class="bold">Working hours:</span> Monday to Friday 9am to 6pm (last booking at 6pm). After hours emergency call-outs available.</p>
+                </div>
             </div>
+            
             <div class="col-sm-8 info-section">
-                <h1>Heading</h1>
+                <h2>Heading</h2>
                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
                     electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release o</p>
                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
@@ -80,21 +107,58 @@
                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
                     electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release o</p>
             </div>
+<!-- /MAIN CONTENT -->
+
+<!-- LOGOS ON SMALL SCREENS -->
+            <div id="logos2" class="row d-flex d-sm-none">
+                <div class="col">
+                    <img src="assets/images/trustedTrader.jpg" class="logos">
+                </div>
+                <div class="col logos-small">
+                    <img src="assets/images/gasSafe.jpg" class="logos">
+                </div>
+                <div class="col logos-small">
+                    <img src="assets/images/oftec.jpg" class="logos">
+                </div>
+            </div>
+<!-- LOGOS ON SMALL SCREENS -->            
         </div>
     </section>
-
+    
+<!-- FOOTER --> 
     <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-8 reg-details">
-                <h5>Footer title</h5>
-                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                <h5 class="footer-heads">Company Information</h5>
+                <p>ADR Services (Midlands) Ltd; serving Derbyshire, Nottinghamshire, South Yorkshire and surrounding areas.</p>
+                <p>Company number: 9480129 </p>
             </div>
             <div class="col-sm-4 social">
-                <h5>Footer title</h5>
-                <p>Lorem Ipsum</p>
+                <h5 class="footer-heads">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </footer>
+<!-- /FOOTER -->     
 
 </body>
 

@@ -27,24 +27,40 @@
 
 .ui-menu-color-terms {
     background-color: #676767;
-
 }
 
 .ui-menu-color-contact {
-    background-color: #;
+    background-color: #3B3B3B;
 }
 
 
-/*------------------------------------------Special padding/margins/text */
+/*------------------------------------------Special text */
 
 h1,
-h2,
 h3,
-h4,
 h5,
 h6 {
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+h4 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #245076;
+    
+}
+
+.bold {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #245076;
 }
 
 /*------------------------------------------Heading */
@@ -55,6 +71,7 @@ header {
 
 .heading {
     margin-left: 50px;
+    margin-right: 20px;
 }
 
 .logo {
@@ -63,10 +80,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 220px;
-}
-
-#head-part-2 {
-    padding-right: 30px;
 }
 
 .strapline {
@@ -83,17 +96,14 @@ header {
     float: right;
 }
 
+#logos2 {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
 .logos {
-    max-height: 70px;
-}
-
-.logos-wide {
-    max-width: 200px;
-    padding-top: 20px;
-}
-
-.logos-small {
-    max-width: 100px;
+    max-height: 80px;
+    padding-right: 30px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -148,7 +158,7 @@ header {
 /*------------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(248, 164, 91, 100);
+    background: #F8A45B;
     height: 70px;
 }
 
@@ -156,13 +166,32 @@ header {
 /*------------------------------------------Section */
 
 .contact-details {
-    padding: 30px 40px;
+    padding: 30px;
     /*background-color: #FEE4AF;*/
-    background-color: #245076;
-    color: #fff;
+    /*background-color: #245076;*/
+    background-color: rgba(108,168,221,0.18);
+    color: #676767;
+}
+
+.contact-strapline {
+    font-family: "Marck Script", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #245076;
+}
+
+.contact-details-info {
+    padding: 10px 0;
+}
+
+.contact-details p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
 }
 
 .info-section {
+    margin: 0;
     padding: 30px;
     background-color: #FAF7F1;
 }
@@ -173,13 +202,39 @@ header {
 footer {
     min-height: 120px;
     margin: 0;
-    background-color: #CECFD4;
+    background-color: #D6D4D4;
+}
+
+.footer-heads {
+    color: #245076;
 }
 
 .reg-details {
     padding: 20px;
 }
 
+.reg-details p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
 .social {
     padding: 20px;
+}
+
+.social li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
