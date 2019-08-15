@@ -74,12 +74,17 @@ header {
     margin-right: 20px;
 }
 
+.heading1 {
+    float: right;
+}
+
 .logo {
     background: url("../images/adrltdlogo2015_2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 220px;
+    max-width: 90%;
 }
 
 .strapline {
