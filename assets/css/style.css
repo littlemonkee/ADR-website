@@ -33,6 +33,30 @@
     background-color: #3B3B3B;
 }
 
+.bg-dark {
+    background-color: #245076!important;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-small {
+    width: 100%;
+    height: 70px;
+    background-color: #245076;
+    padding: 10px 20px 10px 20px;
+}
+
+.navbar-small p {
+    font-size: 28px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(214, 212, 212, 0.8);
+    border-color: rgba(255, 255, 255, 0.75);
+    width: 70px;
+}
 
 /*------------------------------------------Special text */
 
@@ -55,7 +79,7 @@ h4 {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     color: #245076;
-    
+
 }
 
 .bold {
@@ -77,6 +101,17 @@ header {
 
 .heading1 {
     float: right;
+}
+
+.heading2 {
+    max-height: 120px;
+    padding: 10px;
+}
+
+.heading2 p {
+
+    margin: 0 10px;
+    font-size: 12px;
 }
 
 .logo {
@@ -102,8 +137,9 @@ header {
 }
 
 #logos2 {
-    padding-right: 0;
-    padding-left: 20px;
+    padding: 20px 0 20px 20px;
+    /*padding-right: 0;*/
+    /*padding-left: 20px;*/
 }
 
 .logos {
@@ -111,12 +147,38 @@ header {
     padding-right: 30px;
 }
 
+.social-small {
+    padding: 10px 0 0 10px;
+}
+
+.social-small li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+
+/*------------------------------------------Navigation */
+
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
 
 .menu-container {
     font-size: 0;
+    margin: 0;
+    width: 100%;
 }
 
 .menu-item {
@@ -172,8 +234,8 @@ header {
 
 .contact-details {
     padding: 30px;
-    
-    background-color: rgba(108,168,221,0.18);
+
+    background-color: rgba(108, 168, 221, 0.18);
     color: #676767;
 }
 
@@ -222,8 +284,8 @@ footer {
 }
 
 .reg-details p {
-    margin: 0;
-    padding: 0;
+    margin: 0 0 10px 0;
+    padding-right: 20px;
     font-size: 14px;
 }
 
@@ -245,4 +307,23 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+
+/*------------------------------------------Media Queries */
+
+@media screen and (max-width: 765px) {
+    .logo {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 120px;
+        max-width: 230px;
+        padding: 50px 0;
+    }
+
+    .heading-logo {
+        max-height: 120px;
+    }
+
 }
