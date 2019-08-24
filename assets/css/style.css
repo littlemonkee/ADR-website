@@ -37,30 +37,16 @@
     background-color: #245076!important;
 }
 
-.navbar {
-    padding: 0;
-}
-
-.navbar-small {
-    width: 100%;
-    height: 70px;
-    background-color: #245076;
-    padding: 10px 20px 10px 20px;
-}
-
-.navbar-small p {
-    font-size: 28px;
-}
-
-.navbar-dark .navbar-toggler {
-    color: rgba(214, 212, 212, 0.8);
-    border-color: rgba(255, 255, 255, 0.75);
-    width: 70px;
-}
 
 /*------------------------------------------Special text */
 
-h1,
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    padding-left: 0px;
+}
+
 h3,
 h5,
 h6 {
@@ -185,6 +171,7 @@ header {
     height: 70px;
     text-align: center;
     padding: 0;
+
 }
 
 .menu-item a {
@@ -219,6 +206,40 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-small {
+    width: 100%;
+    background-color: #245076;
+    padding: 5px 15px 5px 15px;
+}
+
+.navbar-large {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(214, 212, 212, 0.8);
+    border-color: rgba(255, 255, 255, 0.75);
+    width: 70px;
+    height: 70px;
+}
+
+.navbar-brand {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    padding-left: 0px;
+    margin: 0;
+}
+
+#navbarNavDropdown {
+    background-color: #245076;
 }
 
 
@@ -323,7 +344,20 @@ footer {
     }
 
     .heading-logo {
-        max-height: 120px;
+        max-height: 130px;
+        padding-top: 10px;
+    }
+
+    .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        height: 60px;
+    }
+    
+    .nav-link a li {
+        text-transform: uppercase;
     }
 
 }
