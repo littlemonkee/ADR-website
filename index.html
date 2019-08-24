@@ -20,7 +20,7 @@
             <a href="index.html" class="col-md-4 logo"></a>
             <div class="col-md-8 d-none d-sm-block heading1">
                 <div class="row no-gutters">
-                    <div class="col heading">
+                    <div class="col heading strapline-block">
                         <p class="strapline">Family run since 2008</p>
                     </div>
                 </div>
@@ -28,10 +28,10 @@
                     <div class="col">
                         <img src="assets/images/trustedTrader.jpg" class="logos">
                     </div>
-                    <div class="col logos-small">
+                    <div class="col">
                         <img src="assets/images/gasSafe.jpg" class="logos">
                     </div>
-                    <div class="col logos-small">
+                    <div class="col">
                         <img src="assets/images/oftec.jpg" class="logos">
                     </div>
                 </div>
@@ -68,50 +68,37 @@
         <!-- /HEADER -->
 
         <!-- NAVIGATION -->
-        <!--<div class="row no-gutters">-->
-        <!--<div class=" col navbar navbar-dark bg-dark navbar-expand-sm d-block d-sm-none">-->
-        <!--    <a href="/" class="navbar-brand">Menu</a>-->
 
-        <!--    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-expanded="false" aria-label="Toggle navigation">-->
-        <!--        <span class="navbar-toggler-icon"></span>-->
-        <!--    </button>-->
-        <!--</div>-->
-        <!--    <div id="nav" class="col">-->
-        <!--        <ul class="list-inline menu-container">-->
-        <!--            <li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menu-item">-->
-        <!--                <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-home" aria-hidden="true"></i><span>Home</span></a>-->
-        <!--            </li>-->
-        <!--            <li class="col-6 col-sm-2 ui-menu-color-safety list-inline-item menu-item">-->
-        <!--                <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-fan" aria-hidden="true"></i><span>Appliance Safety</span></a>-->
-        <!--            </li>-->
-        <!--            <li class="col-6 col-sm-2 ui-menu-color-servicing list-inline-item menu-item">-->
-        <!--                <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-tools" aria-hidden="true"></i><span>Servicing</span></a>-->
-        <!--            </li>-->
-        <!--            <li class="col-6 col-sm-2 ui-menu-color-landlord list-inline-item menu-item">-->
-        <!--                <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-building" aria-hidden="true"></i><span>Landlords</span></a>-->
-        <!--            </li>-->
-        <!--            <li class="col-6 col-sm-2 ui-menu-color-prices list-inline-item menu-item">-->
-        <!--                <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-pound-sign" aria-hidden="true"></i><span>Prices</span></a>-->
-        <!--            </li>-->
-        <!--            <li class="col-6 col-sm-2 ui-menu-color-terms list-inline-item menu-item">-->
-        <!--                <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-file-alt" aria-hidden="true"></i><span>Terms</span></a>-->
-        <!--            </li>-->
-        <!--            <li class="col-12 d-sm-none ui-menu-color-contact list-inline-item menu-item">-->
-        <!--                <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-address-card" aria-hidden="true"></i><span>Contact Us</span></a>-->
-        <!--            </li>-->
-        <!--        </ul>-->
-        <!--    </div>-->
-        <!--</div>-->
-        <nav class="navbar navbar-dark navbar-expand-sm">
-            <div class="navbar-small d-sm-none d-flex">
-                <p class="navbar-brand">MENU</p>
+        <nav class="navbar navbar-dark navbar-expand-sm d-block d-sm-none">
+            <div class="navbar-small">
+                <!--<div class="navbar-small d-flex collapse navbar-collapse">-->
+                <div class="navbar-small d-flex collapse navbar-collapse">
 
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                    <!--d-block d-sm-none -->
+                    <h1 class="navbar-brand">MENU</h1>
+
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="active nav-item mr-2"><a class="nav-link" href="/">HOME</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/about">APPLIANCE SAFETY</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/about">SERVICING</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/about">LANDLORDS</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/about">PRICES</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/about">TERMS</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="/about">CONTACT US</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="list-inline menu-container navbar-nav mr-auto">
+        </nav>
+
+        <nav class="d-none d-sm-block" id="nav">
+            <div class="col navbar-large">
+                <ul class="list-inline menu-container">
                     <li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menu-item">
                         <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-home" aria-hidden="true"></i><span>Home</span></a>
                     </li>
@@ -224,6 +211,11 @@
         </div>
     </footer>
     <!-- /FOOTER -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 </body>
 
