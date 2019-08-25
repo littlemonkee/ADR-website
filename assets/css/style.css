@@ -169,6 +169,7 @@ header {
     height: 70px;
     text-align: center;
     padding: 0;
+
 }
 
 .menu-item a {
@@ -194,6 +195,44 @@ header {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    /*color: #fff;*/
+    text-align: left;
+    list-style: none;
+    background-color: #245076;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 0;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    clear: both;
+    font-weight: 400;
+    color: rgba(255,255,255,.5);
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item a:hover {
+    color: #000;
+    background-color: #245076;
 }
 
 #nav {
@@ -353,10 +392,6 @@ footer {
         height: 60px;
     }
 
-    .nav-link a li {
-        text-transform: uppercase;
-    }
-
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
@@ -410,6 +445,11 @@ footer {
 
     .logos {
         max-height: 60px;
-        
+
+    }
+    
+    .nav-link {
+        height: 50px;
+        padding-top: 10px;
     }
 }
