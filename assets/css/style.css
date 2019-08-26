@@ -136,11 +136,11 @@ header {
 }
 
 #logos2 {
-    padding: 20px 0 20px 20px;
+    padding: 10px 0 10px 20px;
 }
 
 .logos {
-    max-height: 80px;
+    height: 70px;
     padding-right: 30px;
 }
 
@@ -377,6 +377,12 @@ header {
     max-width: 500px;
     max-height: 500px;
     padding-left: 20px;
+    padding-right: 30px;
+    float: right;
+}
+
+.table {
+    padding-left: 20px;
     padding-right: 20px;
 }
 
@@ -451,19 +457,28 @@ footer {
 
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 767px) {
     .logo {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 120px;
         max-width: 230px;
-        padding: 50px 0;
+        padding: 10px 0;
     }
 
     .heading-logo {
         max-height: 130px;
         padding-top: 10px;
+    }
+    
+    .strapline {
+        margin: 0;
+    }
+    
+    .logos {
+        max-height: 60px;
+        margin-top: 10px;
     }
 
     .nav-link {
@@ -472,6 +487,18 @@ footer {
         padding-top: 15px;
         padding-bottom: 5px;
         height: 60px;
+    }
+    
+    .dropdown-toggle {
+        padding-top: 0;
+    }
+    
+    .dropdown-toggle::after {
+        vertical-align: 8px;
+    }
+    
+    .menu-item span {
+        font-size: 10px;
     }
 
 }
