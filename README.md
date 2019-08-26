@@ -23,8 +23,8 @@ One of the menu items has a sub-menu where that section of the site is split int
 
 ## Features
 This site uses the following features:
-- The navbar exapnds or collapses depending on device/screen size used. This is achieved using Bootstrap and JQuery.
-- Compatability across devices using a responsive design approach
+- The navbar expands or collapses depending on device/screen size used. This is achieved using Bootstrap and JQuery.
+- Compatability across devices using a responsive design approach.
 - Quality web content - key information required by site users is in focus e.g. the Contact Us section always on show in the left hand section on larger screens but on smaller screens the key contact information moves into the header when the Contact Us section becomes hidden.
 - Social Media links will not open respective site pages as the company does not in fact have any. They will however open a new, social media platform home page as demonstration of the intended functionality.  
 - Some accessibility considerations have been made, e.g. using <nav> code blocks and using "alt" text for images.
@@ -36,16 +36,17 @@ Consideration should be given as to whether a short form could be included somew
 
 ## Testing
 #### Approach
-This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) using browsers downloaded on my own Windows based and Mac OS based hardware, and on multiple mobile devices (Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5/SE, 6/7/8 and 6/7/8 Plus, iPhone X, iPad and iPad Pro) using Google Chrome Developer Tools and also using my own mobile phone following deployment, to ensure compatibility and responsiveness. 
+This site was tested across multiple browsers (Chrome, Safari, Microsoft Edge, Internet Explorer, FireFox) using browsers downloaded on my own Windows based and Mac OS based hardware, and on multiple mobile devices (Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5/SE, 6/7/8 and 6/7/8 Plus, iPhone X, iPad and iPad Pro) using Google Chrome Developer Tools and also using my own mobile phone following deployment, to ensure compatibility and responsiveness. 
 I also undertook two sessions of "User Acceptance Testing (UAT)" with the Company Director.
 
-The site functions as intended. Links to external websites open in new tabs. The menu swaps from the larger segmented bar to the collapsed mobile-friendly navigation with elements within each working as intended for either touch screen or mouse usage.
+The site mostly functions as intended with one exception (see below). Links to external websites open in new tabs. The menu swaps from the larger segmented bar to the collapsed mobile-friendly navigation with elements within each working as intended for either touch screen or mouse usage.
 
 #### Issue resolution
 During the testing phase, I found and resolved the following issues:
 - Formatting of the navigation bars in particular the sub-menu appeared quite different across the various screen sizes. I resolved this issue using media queries.
 - The header sections with the 'strapline' and professional body logos in would not resize initially with changes to the screen width below about 768 pixels in width. I determined this was due to my choice of Bootstrap grid sizing so moved from "col-md-#" to "col-sm-#" which resolved the problem. 
-- The position of the images in the main Section was reviewed and amended as a result of UAT.  
+- The position of the images in the main Section was reviewed and amended as a result of UAT. 
+- On Internet Explorer the Header section currently does not function properly: The strapline has moved to the left and the professional body logos have disappeared. This is currently being reviewed for a fix.
 
 
 ## Deployment
