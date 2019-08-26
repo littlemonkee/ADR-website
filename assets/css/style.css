@@ -47,31 +47,44 @@ h1 {
     padding-left: 0px;
 }
 
-h3,
-h5,
-h6 {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 300;
-}
-
 h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
     font-size: 28px;
     padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 h4 {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     color: #245076;
+}
 
+h5,
+h6 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    
 }
 
 .bold {
     font-weight: bold;
     letter-spacing: 1px;
     color: #245076;
+}
+
+.flex-text {
+    white-space: normal;
 }
 
 /*------------------------------------------Heading */
@@ -208,7 +221,7 @@ header {
     padding: 0;
     margin: 0;
     font-size: 14px;
-    /*color: #fff;*/
+    color: rgba(255, 255, 255, .5);
     text-align: left;
     list-style: none;
     background-color: #245076;
@@ -223,16 +236,45 @@ header {
     padding: 15px;
     clear: both;
     font-weight: 400;
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
     border: 0;
 }
 
-.dropdown-item a:hover {
-    color: #000;
+.dropdown-item:active {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    background-color: #F8A45B;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
     background-color: #245076;
+}
+
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, .5);
+}
+
+.dropdown .dropdown-button {
+    border: none;
+    outline: none;
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.dropdown-button:focus {
+    outline-style: none;
 }
 
 #nav {
@@ -323,6 +365,22 @@ header {
     padding: 10px 20px 0 20px;
 }
 
+.info-section ul {
+    padding-right: 20px;
+}
+
+.info-section ol {
+    padding-right: 20px;
+}
+
+.section-image {
+    max-width: 500px;
+    max-height: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
 
 /*------------------------------------------Footer */
 
@@ -369,6 +427,30 @@ footer {
 
 /*------------------------------------------Media Queries */
 
+@media screen and (max-width: 320px) {
+    .logo {
+        padding-left: 5px;
+        min-height: 130px;
+        max-width: 180px;
+    }
+
+    .heading-logo {
+        max-height: 130px;
+        padding-top: 0;
+    }
+
+    .logos {
+        max-height: 60px;
+
+    }
+
+    .nav-link {
+        height: 50px;
+        padding-top: 10px;
+    }
+
+}
+
 @media screen and (max-width: 765px) {
     .logo {
         background-position: center;
@@ -407,9 +489,25 @@ footer {
         padding-top: 15px;
     }
 
+    .dropdown-item {
+        padding: 30px 0;
+        text-transform: uppercase;
+        background-color: #6CA8DD;
+        text-align: center;
+        white-space: normal;
+    }
+
+    .dropdown-menu .longer-text {
+        padding: 25px 0;
+    }
+
     .hvr-sweep-to-bottom:before {
         background: #F8A45B;
         height: 90px;
+    }
+
+    .nav-link {
+        padding-top: 0;
     }
 
     .logo {
@@ -431,25 +529,24 @@ footer {
 
 }
 
-@media screen and (max-width: 320px) {
-    .logo {
-        padding-left: 5px;
-        min-height: 130px;
-        max-width: 180px;
-    }
-
-    .heading-logo {
-        max-height: 130px;
+@media screen and (min-width: 1024px) {
+    .nav-link {
         padding-top: 0;
     }
 
-    .logos {
-        max-height: 60px;
-
+    .dropdown-item {
+        padding: 25px;
+        text-transform: uppercase;
+        background-color: #6CA8DD;
+        text-align: center;
+        white-space: normal;
     }
-    
-    .nav-link {
-        height: 50px;
-        padding-top: 10px;
+
+    .dropdown-menu .longer-text {
+        padding: 25px 0;
+    }
+
+    .dropdown-toggle::after {
+        vertical-align: 10px;
     }
 }
