@@ -500,12 +500,11 @@ footer {
         max-height: 60px;
         margin-top: 10px;
     }
-    
-    
+
+
     /*#logos {*/
     /*    padding-top: 0;*/
     /*}*/
-
     .nav-link {
         padding-right: 0;
         padding-left: 0;
@@ -606,5 +605,11 @@ footer {
 
     .dropdown-toggle::after {
         vertical-align: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logo {
+        background-size: 85%;
     }
 }
