@@ -118,8 +118,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 220px;
-    max-height: 280px;
+    /*min-height: 220px;*/
+    height: 220px;
 }
 
 .strapline {
