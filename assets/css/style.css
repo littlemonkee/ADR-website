@@ -119,6 +119,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 220px;
+    max-height: 280px;
 }
 
 .strapline {
@@ -132,7 +133,8 @@ header {
     float: right;
 }
 
-#logos {
+#logos img {
+    /*max-width: 140px;*/
     /*float: right;*/
     /*display: inline;*/
 }
