@@ -74,7 +74,7 @@ h5,
 h6 {
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
-    
+
 }
 
 .bold {
@@ -122,16 +122,14 @@ header {
     background: url("../images/adrltdlogo2015_2.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    /*min-height: 220px;*/
-    /*height: 220px;*/
+    background-size: 100%;
 }
 
 .strapline {
     font-family: "Marck Script", sans-serif;
     font-weight: 600;
-    font-size: 26px;
-    /*font-size: 1.5em;*/
+    /*font-size: 26px;*/
+    font-size: 2.2vw;
     text-align: right;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -485,23 +483,28 @@ footer {
         padding-top: 0;
         padding-bottom: 0;
     }
-    
+
     .heading2 {
         padding-top: 20px;
     }
-    
+
     .heading1 {
         padding-top: 10px;
     }
-    
+
     .strapline {
         margin: 0;
     }
-    
+
     .logos {
         max-height: 60px;
         margin-top: 10px;
     }
+    
+    
+    /*#logos {*/
+    /*    padding-top: 0;*/
+    /*}*/
 
     .nav-link {
         padding-right: 0;
@@ -510,19 +513,25 @@ footer {
         padding-bottom: 5px;
         height: 60px;
     }
-    
+
     .dropdown-toggle {
         padding-top: 0;
     }
-    
+
     .dropdown-toggle::after {
         vertical-align: 8px;
     }
-    
+
     .menu-item span {
         font-size: 10px;
     }
 
+}
+
+@media screen and (max-width: 1023px) {
+    .strapline {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
