@@ -133,7 +133,7 @@ header {
 
 #logos {
     /*float: right;*/
-    display: inline-block;
+    /*display: inline;*/
 }
 
 #logos2 {
@@ -144,6 +144,7 @@ header {
     height: 70px;
     padding-right: 30px;
     display: inline-block;
+    float: right;
 }
 
 .social-small {
