@@ -30,7 +30,7 @@ This site uses the following features:
 - Some accessibility considerations have been made, e.g. using <nav> code blocks and using "alt" text for images.
 
 ### Features That Could Be Added
-A scroll to top function/sticky button could be useful for smaller screens/mobile devices due to the length of content on some pages.
+A scroll to top function/sticky button could be useful for smaller screens/mobile devices due to the length of content on some pages. Also to be considered is fixing the footer to the bottom of the screen and setting an overflowy style of auto on the contact and info sections.
 
 Consideration should be given as to whether a short form could be included somewhere that will allow site users to message the company directly from the website.
 
@@ -46,7 +46,9 @@ During the testing phase, I found and resolved the following issues:
 - Formatting of the navigation bars in particular the sub-menu appeared quite different across the various screen sizes. I resolved this issue using media queries.
 - The header sections with the 'strapline' and professional body logos in would not resize initially with changes to the screen width below about 768 pixels in width. I determined this was due to my choice of Bootstrap grid sizing so moved from "col-md-#" to "col-sm-#" which resolved the problem. 
 - The position of the images in the main Section was reviewed and amended as a result of UAT. 
-- On Internet Explorer the Header section currently does not function properly: The strapline has moved to the left and the professional body logos have disappeared. This is currently being reviewed for a fix.
+- On Internet Explorer the Header section currently does not function properly: The strapline has moved to the left and the professional body logos have disappeared. This has been fixed by removing the logos from individual divs. 
+- The main company logo was not rendering nicely on Internet Explorer. I fixed this by setting the image width to different percentages including using media queries to resize it in line with screen size.
+- The 'strapline' text seemed too large on smaller screens.  I used a viewport ("vw") related sizing on the font as well as media queries to improve the look of this.
 
 
 ## Deployment
