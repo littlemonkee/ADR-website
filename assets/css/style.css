@@ -98,6 +98,10 @@ header {
     margin-right: 20px;
 }
 
+.heading-logo {
+    height: 220px;
+}
+
 .heading1 {
     float: right;
     /*height: 220px;*/
