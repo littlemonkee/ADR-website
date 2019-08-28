@@ -94,12 +94,13 @@ header {
 }
 
 .heading {
-    margin-left: 50px;
+    /*margin-left: 50px;*/
     margin-right: 20px;
 }
 
 .heading1 {
     float: right;
+    /*height: 220px;*/
 }
 
 .heading2 {
@@ -119,21 +120,23 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     /*min-height: 220px;*/
-    height: 220px;
+    /*height: 220px;*/
 }
 
 .strapline {
     font-family: "Marck Script", sans-serif;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 26px;
+    /*font-size: 1.5em;*/
     text-align: right;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     color: #245076;
     float: right;
 }
 
-#logos img {
+#logos {
+    padding-bottom: 10px;
     /*max-width: 140px;*/
     /*float: right;*/
     /*display: inline;*/
