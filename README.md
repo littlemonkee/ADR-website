@@ -38,7 +38,7 @@ Consideration should be given as to whether a short form could be included somew
 #### Approach
 This site was tested across multiple browsers (Chrome, Safari, Microsoft Edge, Internet Explorer, FireFox) using browsers downloaded on my own Windows based and Mac OS based hardware, and on multiple mobile devices (Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5/SE, 6/7/8 and 6/7/8 Plus, iPhone X, iPad and iPad Pro) using Google Chrome Developer Tools and also using my own mobile phone following deployment, to ensure compatibility and responsiveness. 
 I also undertook two sessions of "User Acceptance Testing (UAT)" with the Company Director.
-
+The HTML code passed through the W3C validator and the CSS code passed through the jigsaw validator.
 The site mostly functions as intended with one exception (see below). Links to external websites open in new tabs. The menu swaps from the larger segmented bar to the collapsed mobile-friendly navigation with elements within each working as intended for either touch screen or mouse usage.
 
 #### Issue resolution
@@ -53,7 +53,7 @@ During the testing phase, I found and resolved the following issues:
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch and located here https://littlemonkee.github.io/ADR-website/. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
-
+I deployed the website by going to my GitHub repository, clicking on settings and going to GitHub Pages. Here I selected the source Master Branch. The site was then hosted on GitHub Pages.
 
 ## Credits
 ### Content
