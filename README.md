@@ -25,7 +25,7 @@ One of the menu items has a sub-menu where that section of the site is split int
 This site uses the following features:
 - The navbar expands or collapses depending on device/screen size used. This is achieved using Bootstrap and JQuery.
 - Compatability across devices using a responsive design approach.
-- Quality web content - key information required by site users is in focus e.g. the Contact Us section always on show in the left hand section on larger screens but on smaller screens the key contact information moves into the header when the Contact Us section becomes hidden.
+- Quality web content - key information required by site users is in focus e.g. the Contact Us section always on show in the left hand section on larger screens but on smaller screens the key contact information moves into the header when the Contact Us section becomes hidden, and a Contact Us page is made available from the menu button.
 - Social Media links will not open respective site pages as the company does not in fact have any. They will however open a new, social media platform home page as demonstration of the intended functionality.  
 - Some accessibility considerations have been made, e.g. using <nav> code blocks and using "alt" text for images.
 

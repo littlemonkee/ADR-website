@@ -5,7 +5,6 @@
 /*------------------------------------------Colours */
 
 .ui-menu-color-home {
-    /*background-color: #CECFD4;*/
     background-color: #D6D4D4;
 }
 
@@ -260,6 +259,10 @@ header {
     background-color: #245076;
 }
 
+/*nav ul li a.active {*/
+/*  color: #fff;*/
+/*}*/
+
 .navbar-dark .navbar-nav .show>.nav-link {
     color: rgba(255, 255, 255, .5);
 }
@@ -267,7 +270,6 @@ header {
 .dropdown .dropdown-button {
     border: none;
     outline: none;
-    color: white;
     padding-top: 0px;
     padding-bottom: 0px;
     background-color: inherit;
@@ -324,10 +326,6 @@ header {
     background-color: #245076;
 }
 
-.active {
-    color: #F8A45B;
-}
-
 
 /*------------------------------------------Hover.css */
 
@@ -335,7 +333,6 @@ header {
     background: #F8A45B;
     height: 70px;
 }
-
 
 /*------------------------------------------Section */
 
