@@ -4,6 +4,15 @@
 
 /*------------------------------------------Colours */
 
+.warning {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 0 20px 20px 20px;
+}
+.pad-left {
+    padding-left: 10px;
+}
+
 .ui-menu-color-home {
     background-color: #D6D4D4;
 }
@@ -111,7 +120,11 @@ header {
 
 .heading2 p {
     margin: 0 10px;
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.head-contact {
+    margin-top: 14px;
 }
 
 .logo {
